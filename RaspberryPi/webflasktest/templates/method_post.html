@@ -1,0 +1,22 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>post 방식 요청 테스트</title>
+</head>
+<body>
+  <h2>ID : {{id}}, PASSWORD: {{password}}</h2>
+  <form method="post" action="method_post_act">
+    <!-- 여기 method  = post라고 해야만 id_param이 넘어감! get이면 안넘어가서 오류나요 -->
+    <label id="Lable1">id</label>
+    <input name="id" type="text" />
+    <br />
+    <label id="Lable2">password</label>
+    <input name="password" type="text" />
+    <br />
+    <br />
+    <input name="Submit1" type="submit" value="submit" />
+  </form>
+</body>
+</html>
